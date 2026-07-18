@@ -1,7 +1,7 @@
 import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
+import { Swiper, SwiperSlide } from 'swiper/react'; import 'swiper/css';
+// import "slick-carousel/slick/slick-theme.css";
 import banner1 from '../assets/Hero1.jpg'
 import banner2 from '../assets/Hero3.jpg'
 import banner3 from '../assets/Hero4.jpg'
@@ -16,8 +16,8 @@ const Hero = () => {
         slidesToScroll: 1
       };
   return (
-    <div className="slider-container -mt-12 overflow-hidden">
-      <Slider {...settings}>
+    <SwiperSlide className="slider-container -mt-12 overflow-hidden">
+      <Swiper {...settings}>
         <div className=''>
           <div className='h-[650px] lg:h-[800px] relative' 
           style={{
@@ -75,7 +75,7 @@ const Hero = () => {
                </div>
           </div>
         </div>
-      </Slider>
+      </Swiper>
       <div className='bg-white border border-gray-300 shadow-lg rounded-md z-10 left-[15%] absolute hidden lg:block bottom-[15%] items-center justify-center w-[1050px] mx-auto p-4'>
         <div className='flex gap-3 items-center'>
             <div className='grid gap-5 grid-cols-4 flex-grow'>
@@ -117,7 +117,7 @@ const Hero = () => {
 
         </div>
       </div>
-    </div>
+    </SwiperSlide>
   )
 }
 
