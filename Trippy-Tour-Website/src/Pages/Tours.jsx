@@ -3,7 +3,7 @@ import TopBanner from '../Components/TopBanner'
 import Best from '../assets/Best.jpg'
 import Paris from '../assets/Paris.jpg'
 import Tokyo from '../assets/Tokyo.jpg'
-import India from '../assets/India.jpg'
+import Pakistan from '../assets/Pakistan.jpg'
 import Venice from '../assets/Venice.jpg'
 import { Clock, Star } from 'lucide-react'
 
