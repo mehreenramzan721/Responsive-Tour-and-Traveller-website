@@ -1,14 +1,22 @@
 import React from 'react'
-import TopBanner from '../Components/TopBanner'
+import Hero from '../Components/Hero'
+import FeatureDestination from '../Components/FeatureDestination'
+import Features from '../Components/Features'
 import GalleryComp from '../Components/GalleryComp'
+import Banner from '../Components/Banner'
+import Contact from '../Components/ContactComp'
 
-const Gallery = () => {
+const Home = () => {
   return (
     <>
-      <TopBanner text='Gallery'/>
-      <GalleryComp/>
+     <Hero/>
+     <FeatureDestination/>
+     <Features/>
+     <GalleryComp/>
+     <Banner/>
+     <Contact/>
     </>
   )
 }
 
-export default Gallery
+export default Home
