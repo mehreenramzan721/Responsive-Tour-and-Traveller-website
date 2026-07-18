@@ -83,8 +83,8 @@ const Hero = () => {
                     <label htmlFor="" className='flex font-semibold gap-1 items-center'><Search className='w-4 h-4'/>Location</label>
                     <select name="" id="" className='border border-gray-300 rounded-sm p-1'>
                         <option value="">Select Options</option>
-                        <option value="">Bali</option>
-                        <option value="">India</option>
+                        <option value="">Best</option>
+                        <option value="">Pakistan</option>
                         <option value="">Tokyo</option>
                         <option value="">Venice</option>
                         <option value="">Paris</option>
@@ -102,11 +102,11 @@ const Hero = () => {
                     <label htmlFor="" className='flex font-semibold gap-1 items-center'><Search className='w-4 h-4'/>Guest</label>
                     <select name="" id="" className='border border-gray-300 rounded-sm p-1'>
                         <option value="">Select Options</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
+                        <option value="">7 people</option>
+                        <option value="">5 people</option>
+                        <option value="">3 people</option>
+                        <option value="">2 people</option>
+                        <option value="">1 person only</option>
                     </select>
                 </div>
             </div>

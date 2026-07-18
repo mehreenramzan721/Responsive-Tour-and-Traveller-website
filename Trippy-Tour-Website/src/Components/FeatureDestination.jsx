@@ -1,8 +1,8 @@
 import React from 'react'
-import Bali from '../assets/Bali.jpg'
+import Best from '../assets/Best.jpg'
 import Paris from '../assets/Paris.jpg'
 import Tokyo from '../assets/Tokyo.jpg'
-import India from '../assets/India.jpg'
+import Pakistan from '../assets/Pakistan.jpg'
 import Venice from '../assets/Venice.jpg'
 import next from '../assets/next.png'
 import back from '../assets/back.png'
@@ -56,10 +56,10 @@ const FeatureDestination = () => {
         ]
     };
     const destinationJson = [
-        { name: 'Baliya', img: Bali, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+        { name: 'Saif ul muluk', img: Best, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
         { name: 'Venice', img: Venice, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
         { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-        { name: 'India', img: India, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+        { name: 'Pakistan', img: Pakistan, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
         { name: 'Paris', img: Paris, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
         { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
     ]

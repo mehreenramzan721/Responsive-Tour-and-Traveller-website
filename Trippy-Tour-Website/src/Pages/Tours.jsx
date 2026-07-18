@@ -1,6 +1,6 @@
 import React from 'react'
 import TopBanner from '../Components/TopBanner'
-import Bali from '../assets/Bali.jpg'
+import Best from '../assets/Best.jpg'
 import Paris from '../assets/Paris.jpg'
 import Tokyo from '../assets/Tokyo.jpg'
 import India from '../assets/India.jpg'
@@ -9,10 +9,10 @@ import { Clock, Star } from 'lucide-react'
 
 const Tours = () => {
   const destinationJson = [
-    { name: 'Baliya', img: Bali, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+    { name: 'Saif ul muluk', img: Best, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
     { name: 'Venice', img: Venice, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
     { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'India', img: India, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+    { name: 'Pakisatan', img: Pakistan, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
     { name: 'Paris', img: Paris, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
     { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
   ]

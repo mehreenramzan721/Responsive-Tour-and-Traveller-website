@@ -31,8 +31,8 @@ const GalleryComp = () => {
                 speed={500}
                 plugins={[lgThumbnail, lgZoom]}
             >
-                <a href="/India.jpg">
-                    <img alt="img1" src="/India.jpg" />
+                <a href="/Pakistan.jpg">
+                    <img alt="img1" src="/Pakistan.jpg" />
                 </a>
                 <a href="/Hero1.jpg">
                     <img alt="img2" src="/Hero1.jpg" />
@@ -46,8 +46,8 @@ const GalleryComp = () => {
                 <a href="/Hero4.jpg">
                     <img alt="img2" src="/Hero4.jpg" />
                 </a>
-                <a href="/Bali.jpg">
-                    <img alt="img2" src="/Bali.jpg" />
+                <a href="/Best.jpg">
+                    <img alt="img2" src="/Best.jpg" />
                 </a>
                 <a href="/Venice.jpg">
                     <img alt="img2" src="/Venice.jpg" />
